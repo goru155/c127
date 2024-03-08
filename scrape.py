@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import time
 import pandas as pd
 
-START_URL = "https://exoplanets.nasa.gov/exoplanet-catalog/"
+START_URL = "https://en.wikipedia.org/wiki/List_of_brown_dwarfs"
 
 browser = webdriver.Chrome("chromedriver.exe")
 browser.get(START_URL)
